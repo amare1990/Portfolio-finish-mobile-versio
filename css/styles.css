@@ -31,6 +31,7 @@ body {
 .section-works {
   margin: 16px 16px;
 }
+
 .card-works {
   height: 220px;
   width: 295px;
@@ -48,6 +49,7 @@ body {
   line-height: 44px;
   color: #172b4d;
 }
+
 .frame-2 .counter {
   height: 8px;
   width: 8px;
@@ -76,6 +78,7 @@ body {
   gap: 8px;
   margin-bottom: 12px;
 }
+
 .tag {
   height: 16px;
   width: 65px;
@@ -87,9 +90,11 @@ body {
   letter-spacing: 0.03em;
   color: #6070ff;
 }
+
 .action {
   position: relative;
 }
+
 .action .btn {
   height: 48px;
   width: 124px;
@@ -98,7 +103,6 @@ body {
   padding: 12px;
   display: flex;
   align-items: center;
-  padding: 12px;
   gap: 10px;
   margin-bottom: 40px;
 
@@ -106,6 +110,7 @@ body {
 position: absolute;
 top: calc(50% - 48px/2);
 border: 1px solid #6070ff; */
+
 }
 
 .btn span {
@@ -125,10 +130,13 @@ border: 1px solid #6070ff; */
 }
 
 /* Styling anchor tags   */
+
 a {
   text-decoration: none;
 }
+
 /* End of Styling anchor tags   */
+
 .frame-2 {
   height: 32px;
   width: 236px;
@@ -142,7 +150,6 @@ a {
 .project-title .title {
   height: 36px;
   width: 295px;
-  border-radius: nullpx;
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
@@ -247,6 +254,7 @@ a {
   flex-direction: column;
   align-items: center;
 }
+
 .frame-12 {
   height: 320.14678955078125px;
   width: 327px;
@@ -286,6 +294,7 @@ a {
   align-items: center;
   gap: 21px;
 }
+
 .frame-8 {
   height: 72px;
   width: 327px;
@@ -327,19 +336,19 @@ a {
   line-height: 24px;
   display: flex;
   align-items: center;
-  color: #000000;
+  color: #000;
 }
 
 .frame-9 {
   margin-top: 24px;
   height: 72px;
   width: 327px;
-  left: 0px;
   top: 392.146728515625px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 .frame-9 a {
   height: 24px;
   width: 237px;
@@ -350,7 +359,7 @@ a {
   line-height: 24px;
   display: flex;
   align-items: center;
-  color: #000000;
+  color: #000;
 }
 
 .frame-7 a {
@@ -363,7 +372,7 @@ a {
   line-height: 24px;
   display: flex;
   align-items: center;
-  color: #000000;
+  color: #000;
 }
 
 /* End of Styling about myself section */
