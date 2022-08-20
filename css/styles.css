@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.container {
+  position: relative;
+
+  /* background-image: url('images/header-background-mobile.png'); */
+
+  height: 718px;
+  width: 375px;
+  background: #fff;
+}
+
+.section-works {
+  margin: 16px 16px;
+}
+.section-works .card-works img {
+  height: 220px;
+  width: 295px;
+  left: 16px;
+  top: 16px;
+  border-radius: 8px;
+}
+
+.section-works h1 {
+    height: 36px;
+    width: 295px;
+    left: 0px;
+    top: 0px;
+    border-radius: nullpx;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    color: #172b4d;    
+
+}
+.frame-2 .counter{
+    height: 8px;
+width: 8px;
+left: 187px;
+top: 12px;
+color: #c1c7d0;
+
+}
+
+.work-detail p{
+    height: 76px;
+width: 295px;
+left: 0px;
+top: 92px;
+font-weight: 400;
+font-size: 15px;
+line-height: 24px;
+color: #344563;
+
+}
+
+.tags{
+    height: 24px;
+width: 203px;
+left: 0px;
+top: 180px;
+display: flex;
+align-items: center;
+gap: 8px;
+
+}
+.tag{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    color: #6070ff;
+}
+.action{
+    position: relative;
+}
+.action button{
+    height: 48px;
+width: 124px;
+left: 0px;
+top: 12px;
+border-radius: 8px;
+padding: 12px;
+display: flex;
+align-items: center;
+padding: 12px;
+gap: 10px;
+
+/* 
+position: absolute;
+top: calc(50% - 48px/2);
+border: 1px solid #6070ff; */
+
+}
+.action button span{
+    height: 24px;
+width: 100px;
+left: 12px;
+top: 12px;
+border-radius: nullpx;
+font-weight: 500;
+font-size: 17px;
+line-height: 24px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.03em;
+color: #396df2;
+
+}
