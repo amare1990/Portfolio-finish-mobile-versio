@@ -106,11 +106,10 @@ body {
   gap: 10px;
   margin-bottom: 40px;
 
-  /* 
+/* 
 position: absolute;
 top: calc(50% - 48px/2);
 border: 1px solid #6070ff; */
-
 }
 
 .btn span {
@@ -163,7 +162,6 @@ a {
 .frame-2 .year {
   height: 16px;
   width: 55px;
-  left: 0px;
   top: 8px;
   font-weight: 600;
   font-size: 13px;
@@ -295,12 +293,6 @@ a {
   gap: 21px;
 }
 
-.frame-8 {
-  height: 72px;
-  width: 327px;
-  top: 320.146728515625px;
-}
-
 .frame-12 ul li {
   list-style: none;
 }
@@ -326,6 +318,7 @@ a {
   justify-content: space-between;
   align-items: center;
 }
+
 .frame-8 a {
   height: 24px;
   width: 237px;
