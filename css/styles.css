@@ -23,17 +23,23 @@ body {
   height: 718px;
   width: 375px;
   background: #fff;
+  display: grid;
+  grid-template-columns: auto;
+  gap: 90px;
 }
 
 .section-works {
   margin: 16px 16px;
 }
-.section-works .card-works img {
+.card-works {
   height: 220px;
   width: 295px;
   left: 16px;
   top: 16px;
   border-radius: 8px;
+  margin-bottom: 250px;
+  
+
 }
 
 .section-works h1 {
@@ -89,7 +95,7 @@ gap: 8px;
 .action{
     position: relative;
 }
-.action button{
+.action .btn {
     height: 48px;
 width: 124px;
 left: 0px;
@@ -107,7 +113,7 @@ top: calc(50% - 48px/2);
 border: 1px solid #6070ff; */
 
 }
-.action button span{
+.btn span{
     height: 24px;
 width: 100px;
 left: 12px;
@@ -123,3 +129,4 @@ letter-spacing: 0.03em;
 color: #396df2;
 
 }
+
